@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Custom Animations */
+@keyframes fade-in-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-down {
+  animation: fade-in-down 0.5s ease-out;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.5s ease-out;
+}
+.slick-dots li button:before {
+  font-size: 16px; /* Adjust this value to increase/decrease the size of the dots */
+}
+
+/* Optional: Change the color of dots */
+.slick-dots li.slick-active button:before {
+  color: #27251f; /* Change this color to your desired active dot color */
+}
+
+.slick-dots li button:before {
+  color: #ccc; /* Change this color to your desired inactive dot color */
+}
+
+/* Home Page CSS Container*/
+
+
+.square-container {
+  width: 400px; /* Adjust as needed */
+  height: 400px; /* Adjust as needed */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  overflow: hidden;
+  border-radius: 10px;
+  border-color: azure;
+}
+
+.square-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border-color: azure;
+}

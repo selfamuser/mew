@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Industrial Drill Machine",
+    "description": "High-performance industrial drill machine with advanced features.",
+    "category": "Drilling Machines",
+    "price": 1200,
+    "availability": "In Stock",
+    "image": "https://jpttools.com/cdn/shop/files/1_c0046eac-fe1f-4bc5-81b7-2b5614710464_1024x1024.jpg?v=1709805799"
+  },
+  {
+    "id": 2,
+    "name": "CNC Milling Machine",
+    "description": "Precision CNC milling machine for complex manufacturing tasks.",
+    "category": "Milling Machines",
+    "price": 850,
+    "availability": "In Stock",
+    "image": "https://images.pexels.com/photos/18356983/pexels-photo-18356983/free-photo-of-entrance-to-cafe.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+  },
+  {
+    "id": 3,
+    "name": "OPS Milling Machine",
+    "description": "Precision CNC milling machine for complex manufacturing tasks.",
+    "category": "Milling Machines",
+    "price": 4500,
+    "availability": "In Stock",
+    "image": "https://via.placeholder.com/400x300.png?text=Milling+Machine"
+  },
+  {
+    "id": 4,
+    "name": "MNQ Milling Machine",
+    "description": "Precision CNC milling machine for complex manufacturing tasks.",
+    "category": "Milling Machines",
+    "price": 500,
+    "availability": "In Stock",
+    "image": "https://via.placeholder.com/400x300.png?text=Milling+Machine"
+  },
+  {
+    "id": 5,
+    "name": "XYZ Milling Machine",
+    "description": "Precision CNC milling machine for complex manufacturing tasks.",
+    "category": "Milling Machines",
+    "price": 38500,
+    "availability": "In Stock",
+    "image": "https://via.placeholder.com/400x300.png?text=Milling+Machine"
+  },
+  {
+    "id": 6,
+    "name": "ABC Milling Machine",
+    "description": "Precision CNC milling machine for complex manufacturing tasks.",
+    "category": "Milling Machines",
+    "price": 18500,
+    "availability": "In Stock",
+    "image": "https://via.placeholder.com/400x300.png?text=Milling+Machine"
+  },
+  {
+    "id": 7,
+    "name": "ABC Milling Machine",
+    "description": "Precision CNC milling machine for complex manufacturing tasks.",
+    "category": "Milling Machines",
+    "price": 18500,
+    "availability": "In Stock",
+    "image": "https://via.placeholder.com/400x300.png?text=Milling+Machine"
+  },
+  {
+    "id": 8,
+    "name": "ABC Milling Machine",
+    "description": "Precision CNC milling machine for complex manufacturing tasks.",
+    "category": "Milling Machines",
+    "price": 18500,
+    "availability": "In Stock",
+    "image": "https://via.placeholder.com/400x300.png?text=Milling+Machine"
+  },
+  {
+    "id": 9,
+    "name": "ABC Milling Machine",
+    "description": "Precision CNC milling machine for complex manufacturing tasks.",
+    "category": "Milling Machines",
+    "price": 18500,
+    "availability": "In Stock",
+    "image": "https://via.placeholder.com/400x300.png?text=Milling+Machine"
+  },
+  {
+    "id": 10,
+    "name": "ABC Milling Machine",
+    "description": "Precision CNC milling machine for complex manufacturing tasks.",
+    "category": "Milling Machines",
+    "price": 18500,
+    "availability": "In Stock",
+    "image": "https://via.placeholder.com/400x300.png?text=Milling+Machine"
+  },
+  {
+    "id": 11,
+    "name": "ABC Milling Machine",
+    "description": "Precision CNC milling machine for complex manufacturing tasks.",
+    "category": "Milling Machines",
+    "price": 18500,
+    "availability": "In Stock",
+    "image": "https://via.placeholder.com/400x300.png?text=Milling+Machine"
+  }
+]
