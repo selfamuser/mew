@@ -32,7 +32,7 @@ function Home() {
           <button className="bg-yellow-500 text-gray-800 font-semibold py-3 px-8 rounded-full hover:bg-yellow-600 transition-colors duration-200 ease-in-out" onClick={handleExploreClick}>Explore Here</button>
         </div>
       </div>
-      <section ref={sectionRef} className="bg-gray-800 py-16">
+      {/* <section ref={sectionRef} className="bg-gray-800 py-16">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-center mb-8 text-white">
             Welcome to Our World of Engineering
@@ -49,7 +49,69 @@ function Home() {
             <HomeContent />
           </div>
         </div>
+      </section> */}
+      <section ref={sectionRef} className="bg-gray-800 py-16">
+        <div className="container mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-8 text-white">
+            Welcome to Our World of Engineering
+          </h2>
+          <div className="grid grid-cols-1 gap-16">
+            {/* Image on left, text on right */}
+            <div className="md:flex md:items-center">
+              <div className="md:w-1/2 flex justify-center md:justify-end p-4">
+                <img
+                  src={image1}
+                  alt="Image 1"
+                  className="w-3/4 rounded-lg border-4 border-white"
+                />
+              </div>
+              <div className="md:w-1/2 text-center text-white p-4">
+                <HomeContent />
+              </div>
+            </div>
+            {/* Image on right, text on left */}
+            <div className="md:flex md:items-center md:flex-row-reverse">
+              <div className="md:w-1/2 flex justify-center md:justify-start p-4">
+                <img
+                  src={image2}
+                  alt="Image 2"
+                  className="w-3/4 rounded-lg border-4 border-white"
+                />
+              </div>
+              <div className="md:w-1/2 text-center text-white p-4">
+                <HomeContent />
+              </div>
+            </div>
+            {/* Image on left, text on right */}
+            <div className="md:flex md:items-center">
+              <div className="md:w-1/2 flex justify-center md:justify-end p-4">
+                <img
+                  src={image3}
+                  alt="Image 3"
+                  className="w-3/4 rounded-lg border-4 border-white"
+                />
+              </div>
+              <div className="md:w-1/2 text-center text-white p-4">
+                <HomeContent />
+              </div>
+            </div>
+            {/* Image on right, text on left */}
+            <div className="md:flex md:items-center md:flex-row-reverse">
+              <div className="md:w-1/2 flex justify-center md:justify-start p-4">
+                <img
+                  src={image4}
+                  alt="Image 4"
+                  className="w-3/4 rounded-lg border-4 border-white"
+                />
+              </div>
+              <div className="md:w-1/2 text-center text-white p-4">
+                <HomeContent />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+
     </div>
   );
 }

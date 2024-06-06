@@ -8,7 +8,7 @@ const ContactUsPage = () => {
     email: '',
     phone: '',
     message: '',
-    recipient: 'mitarthmahoon@mahoonengg-works.com' // Default recipient email
+    recipient: 'mitarthmahoon@mahoonenggworks.com' // Default recipient email
   });
 
   const handleChange = (e) => {
@@ -28,7 +28,7 @@ const ContactUsPage = () => {
 
   return (
     <div className="bg-gray-800 min-h-screen flex items-center justify-center ">
-      <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-600 container mx-auto px-8 py-12 bg-gray-900 rounded-lg shadow-xl flex flex-col md:flex-row  mt-2 mb-2">
+      <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-600 container mx-auto px-8 py-12 bg-gray-900 rounded-lg shadow-xl flex flex-col md:flex-row  mt-2 mb-2 animate-fadeIn">
         {/* Left Section - Contact Form */}
         <div className="md:w-1/2 md:pr-8">
           <h2 className="text-3xl font-bold mb-6 text-white">Send us an Enquiry</h2>
@@ -82,8 +82,8 @@ const ContactUsPage = () => {
                 className="form-select mt-1 block w-full border-gray-700 rounded-md focus:border-yellow-500 focus:ring-yellow-500 bg-gray-700 text-gray-200"
                 required
               >
-                <option value="mitarthmahoon@mahoonengg-works.com">Mitarth Mahoon</option>
-                <option value="pritpalmahoon@mahoonengg-works.com">Pritpal Mahoon</option>
+                <option value="mitarthmahoon@mahoonenggworks.com">Mitarth Mahoon</option>
+                <option value="pritpalmahoon@mahoonenggworks.com">Pritpal Mahoon</option>
               </select>
             </div>
             <div>
@@ -99,7 +99,7 @@ const ContactUsPage = () => {
                 required
               ></textarea>
             </div>
-            <button type="submit" className="bg-yellow-500 text-white py-2 px-4 rounded-md hover:bg-yellow-600 transition-colors duration-300">Send Message</button>
+            <button type="submit" className="bg-yellow-500 text-white py-2 px-4 rounded-md hover:bg-yellow-600 transition-colors duration-300">Send Enquiry</button>
           </form>
         </div>
 
@@ -116,7 +116,7 @@ const ContactUsPage = () => {
             <div className="flex items-center mb-4">
               <FaEnvelope className="text-yellow-500 mr-2" />
               <div>
-                <span className="text-gray-200 ml-2">mitarthmahoon@mahoonengg-works.com</span>
+                <span className="text-gray-200 ml-2">mitarthmahoon@mahoonenggworks.com</span>
               </div>
             </div>
             <div className="flex items-center mb-4">
@@ -125,12 +125,12 @@ const ContactUsPage = () => {
                 <span className="text-gray-200 ml-2">+91 7838-965-862</span>
               </div>
             </div>
-            <div className="flex items-center mb-4">
+            {/* <div className="flex items-center mb-4">
               <FaEnvelope className="text-yellow-500 mr-2" />
               <div>
                 <span className="text-gray-200 ml-2">pritpalmahoon@mahoonengg-works.com</span>
               </div>
-            </div>
+            </div> */}
             <div className="flex items-center mb-4">
               <FaMapMarkerAlt className="text-yellow-500 mr-2" />
               <div>
@@ -141,7 +141,7 @@ const ContactUsPage = () => {
           <div className="relative bg-gray-800 rounded-lg shadow-md overflow-hidden">
             <div className="h-72">
               <iframe
-                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Block%20A%20Wazirpur%20Industrial%20Area%20New%20Delhi+(Mahoon%20Engineering%20Works)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                src="https://maps.google.com/maps?width=100%25&amp;height=1000&amp;hl=en&amp;q=Block%20A%20Wazirpur%20Industrial%20Area%20New%20Delhi+(Mahoon%20Engineering%20Works)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                 title="Map"
                 allowFullScreen=""
                 loading="lazy"

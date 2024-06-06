@@ -6,6 +6,10 @@ export default {
   theme: {
     extend: {
       keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
         "fade-in-down": {
           "0%": {
             opacity: "0",
@@ -30,6 +34,7 @@ export default {
       animation: {
         "fade-in-down": "fade-in-down 0.5s ease-out",
         "fade-in-up": "fade-in-up 0.5s ease-out",
+        fadeIn: "fadeIn 1s ease-in-out",
       },
     },
   },

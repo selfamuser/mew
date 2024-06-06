@@ -68,7 +68,7 @@ const CatalogPage = () => {
 
   return (
     <div className="bg-gray-800 min-h-screen py-12">
-      <div className="container mx-auto px-4 lg:px-8">
+      <div className="container mx-auto px-4 lg:px-8 animate-fadeIn">
         <h1 className="text-4xl font-bold text-white mb-8">Our Products</h1>
 
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-4">
