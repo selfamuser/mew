@@ -16,7 +16,7 @@ export default function Header() {
           <img src={logo} className="h-12 w-auto" alt="Company Logo" />
           <div className="flex flex-col text-left ">
             <span className="text-xl font-semibold whitespace-nowrap dark:text-white text-left">Mahoon</span>
-            <span className="text-xl font-semibold whitespace-nowrap dark:text-white text-left">Engineering Works &trade;</span>
+            <span className="text-xl font-semibold whitespace-nowrap dark:text-white text-left">Engineering Works</span>
           </div>
         </Link>
         <div className="flex items-center space-x-4 md:order-2">

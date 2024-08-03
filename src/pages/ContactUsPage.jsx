@@ -8,7 +8,7 @@ const ContactUsPage = () => {
     email: '',
     phone: '',
     message: '',
-    recipient: 'mitarthmahoon@mahoonenggworks.com' // Default recipient email
+    recipient: 'info@mahoonenggworks.com' // Default recipient email
   });
 
   const handleChange = (e) => {
@@ -82,8 +82,8 @@ const ContactUsPage = () => {
                 className="form-select mt-1 block w-full border-gray-700 rounded-md focus:border-yellow-500 focus:ring-yellow-500 bg-gray-700 text-gray-200"
                 required
               >
-                <option value="mitarthmahoon@mahoonenggworks.com">Mitarth Mahoon</option>
-                <option value="pritpalmahoon@mahoonenggworks.com">Pritpal Mahoon</option>
+                <option value="mitarthmahoon@mahoonenggworks.com">info@mahoonenggworks.com</option>
+
               </select>
             </div>
             <div>
@@ -116,7 +116,7 @@ const ContactUsPage = () => {
             <div className="flex items-center mb-4">
               <FaEnvelope className="text-yellow-500 mr-2" />
               <div>
-                <span className="text-gray-200 ml-2">mitarthmahoon@mahoonenggworks.com</span>
+                <span className="text-gray-200 ml-2">info@mahoonenggworks.com</span>
               </div>
             </div>
             <div className="flex items-center mb-4">

@@ -13,8 +13,9 @@ const About = () => {
         <div className="max-w-4xl mx-auto px-4 text-white">
           <section className="mb-16">
             <Mission />
-            <Services />
+
             <Expertise />
+            <Services />
           </section>
 
           <ChooseUs />

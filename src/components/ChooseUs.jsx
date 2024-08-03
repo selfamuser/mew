@@ -8,15 +8,15 @@ function ChooseUs() {
         <ul className="list-disc ml-8 mb-8">
           <li className="flex items-center mb-4 text-lg">
             <FaLightbulb className="text-yellow-500 mr-2" />
-            <span>Innovation driven: We embrace the latest technological advancements to provide innovative solutions.</span>
+            <span><b className='text-yellow-500'>Innovation Driven :</b> We embrace the latest technological advancements to provide innovative solutions.</span>
           </li>
           <li className="flex items-center mb-4 text-lg">
             <FaIndustry className="text-yellow-500 mr-2" />
-            <span>Customer-Centric: Our approach is centred around understanding and fulfilling the unique needs of our clients.</span>
+            <span><b className='text-yellow-500'>Customer-Centric :</b> Our approach is centred around understanding and fulfilling the unique needs of our clients.</span>
           </li>
           <li className="flex items-center text-lg">
             <FaGlobe className="text-yellow-500 mr-2" />
-            <span>Global Reach: With a presence in key markets worldwide, we offer our services globally.</span>
+            <span><b className='text-yellow-500'>Global Reach :</b> With a presence in key markets worldwide, we offer our services globally.</span>
           </li>
         </ul>
       </section>
